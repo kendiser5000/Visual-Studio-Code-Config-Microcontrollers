@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Apps/core/inc",
+                "${workspaceFolder}/Apps/core/src",
+                "${workspaceFolder}/Apps/cli/inc",
+                "${workspaceFolder}/Apps/cli/src",
+                "${workspaceFolder}/Apps/heat_controller/src",
+                "${workspaceFolder}/Apps/heat_controller/inc",
+                "${workspaceFolder}/Apps/heat_monitor/src",
+                "${workspaceFolder}/Apps/heat_monitor/inc",
+                "${workspaceFolder}/Drivers/stdio/inc",
+                "${workspaceFolder}/Drivers/thermopneumatics/inc",
+                "${workspaceFolder}/Drivers/temperature/inc",
+                "${workspaceFolder}/CMSIS/Include",
+                "${workspaceFolder}/CMSIS/Device/Include",
+                "${workspaceFolder}/FreeRTOS/Source",
+                "${workspaceFolder}/FreeRTOS/Source/include",
+                "${workspaceFolder}/FreeRTOS/Source/portable/GCC/ARM_CM4F",
+                "${workspaceFolder}/STM32F4xx_PeriphLib/inc",
+                "${workspaceFolder}/STM32F4xx_PeriphLib/src"
+            ],
+            "defines": [
+                "USE_FULL_LL_DRIVER",
+                "STM32F429xx"
+            ],
+            "compilerPath": "/opt/gnuarmemb/bin/",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

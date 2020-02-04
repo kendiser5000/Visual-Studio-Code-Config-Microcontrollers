@@ -1,0 +1,74 @@
+{
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/Tests/cli_test/build/CLI_TEST.elf",
+            "name": "Debug cli_test",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "stutil",
+            "device": "STM32F429ZI",
+            "v1": false
+        },
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/Tests/heat_controller_test/build/HEAT_CONTROLLER_TEST.elf",
+            "name": "Debug heat_controller_test",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "stutil",
+            "device": "STM32F429ZI",
+            "v1": false
+        },
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/Tests/heat_monitor_test/build/HEAT_MONITOR_TEST.elf",
+            "name": "Debug heat_monitor_test",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "stutil",
+            "device": "STM32F429ZI",
+            "v1": false
+        },
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/Tests/thermopneum_test/build/THERMOPNEUM_TEST.elf",
+            "name": "Debug thermopneum_test",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "stutil",
+            "device": "STM32F429ZI",
+            "v1": false
+        },
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/Tests/temperature_test/build/TEMPERATURE_TEST.elf",
+            "name": "Debug temperature_test",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "stutil",
+            "device": "STM32F429ZI",
+            "v1": false
+        },
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/Tests/stdio_test/build/STDIO_TEST.elf",
+            "name": "Debug stdio_test",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "stutil",
+            "device": "STM32F429ZI",
+            "v1": false
+        },
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/build/README-embedded-sw.elf",
+            "name": "Debug README-embedded-sw",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "stutil",
+            "device": "STM32F429ZI",
+            "v1": false
+        }
+    ]
+}
